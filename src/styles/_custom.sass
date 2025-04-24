@@ -3,21 +3,30 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 85%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: rotacion1 3.6s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 50%
+    right: 5%
+  &-3
+    animation: rotacion1 3.6s linear infinite
+    position: absolute
+    bottom: 5%
+    right: 85%
+
+@keyframes rotacion1 
+  from 
+    transform: rotate(0deg)  
+  to 
+    transform: rotate(360deg)
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
-    transform: translateY(0px)
-  
+    transform: translateY(0px) 
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -31,33 +40,76 @@
 figcaption
   font-weight: normal
 
-.BG03
-  background-color: #B5CCAD
-
-//- tarjeta de deslizamiento arriba abajo 
-.tarjetas-up
-  overflow: hidden
-  border-radius: 5px
-  position: relative
-  &_card
-    transition: bottom .3s ease-in-out
-    position: absolute
-    border-radius: 5px
-    width: 100%
-    min-height: auto
-    left: 0
-    bottom: 0%
-    transform: translateY(calc(100% - 3.7rem))
-    padding: 1.5rem
-    i:last-child
-      display: none
-  &:hover
-    .tarjetas-up_card
-      transform: translateY(0)
-    i:first-child
-      display: none
-    i:last-child
-      display: block
- 
 .barra-avance__boton--regresar span
-  color: #fff !important
+    color: #ffffff !important
+
+// pasosb
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  border-color: #FECAB2
+  background-color: #FECAB2
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #09614D
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #09614D
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: #09614D
+
+.pasos-b__header__item__dot i
+  color: #12263F
+
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #09614D
+
+.pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: #fff
+
+
+
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+.cajon.color-secundario
+  background-color: #E7FDEB
+
+.cajon.color-primario
+  background-color: #D4FEFA
+
+.tarjeta.tarjeta--azul
+  background-color: #D4FEFA
+
+.bloque-texto-g.color-primario
+  background-color: #6CDFD4
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/tema1/fondotarjeta.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG02
+  background-color: #EAE7FC !important
+
+.BG03
+  background-image: url("../assets/curso/temas/tema3/imgbg3.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta.color5
+  background-color: #E7FDEB !important
+
+.bgblanco
+  background-color: white
