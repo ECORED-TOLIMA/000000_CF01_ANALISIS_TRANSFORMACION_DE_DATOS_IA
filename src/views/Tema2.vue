@@ -24,13 +24,13 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10(data-aos="flip-up")
           .cajon.color-secundario.p-4.mb-4
-            p Dentro de la estadística descriptiva, es posible diferenciar entre la estadística univariada y la estadística bivariada. La estadística univariada analiza una sola variable a la vez, mientras que la estadística bivariada estudia la relación entre dos variables, utilizando herramientas como tablas de contingencia, diagramas de dispersión y coeficientes de correlación.
+            p.mb-0 Dentro de la estadística descriptiva, es posible diferenciar entre la estadística univariada y la estadística bivariada. La estadística univariada analiza una sola variable a la vez, mientras que la estadística bivariada estudia la relación entre dos variables, utilizando herramientas como tablas de contingencia, diagramas de dispersión y coeficientes de correlación.
       p(data-aos="flip-up") Es importante señalar que la estadística descriptiva no emplea el cálculo de probabilidades ni permite realizar inferencias más allá de los datos analizados. Su objetivo principal es resumir y presentar la información de manera clara y comprensible, facilitando su interpretación y uso en la toma de decisiones (Del Pino, 2008).
       
       separador
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.1	Niveles de medición
-      p.mb-4(data-aos="flip-up") Los niveles de medición en estadística describen las propiedades de los datos y determinan qué tipo de operaciones matemáticas y análisis estadísticos pueden aplicarse a ellos. Según la clasificación de Stevens (1946), existen cuatro niveles de medición: nominal, ordinal, de intervalo y de razón. Cada nivel tiene características particulares que determinan cómo se pueden interpretar y analizar los datos:
+      p.mb-5(data-aos="flip-up") Los niveles de medición en estadística describen las propiedades de los datos y determinan qué tipo de operaciones matemáticas y análisis estadísticos pueden aplicarse a ellos. Según la clasificación de Stevens (1946), existen cuatro niveles de medición: nominal, ordinal, de intervalo y de razón. Cada nivel tiene características particulares que determinan cómo se pueden interpretar y analizar los datos:
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10
           LineaTiempoD.color-acento-botones.mb-4
@@ -110,7 +110,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')
   
-      p.mb-4(data-aos="flip-up") En la tabla 6 se presenta una comparación de los niveles de medición con sus características principales:
+      p.mb-5(data-aos="flip-up") En la tabla 6 se presenta una comparación de los niveles de medición con sus características principales:
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 6.
@@ -162,9 +162,9 @@
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.2	Variables categóricas
       p.mb-4(data-aos="flip-up") En el campo de la estadística descriptiva, una variable categórica clasifica los datos en grupos o categorías según cualidades o atributos, sin asignarles un valor numérico inherente. Sin embargo, en algunos casos, pueden recibir códigos numéricos solo para facilitar su análisis.
-      p.mb-4(data-aos="flip-up") Las variables categóricas se dividen en dos tipos principales:
+      p.mb-5(data-aos="flip-up") Las variables categóricas se dividen en dos tipos principales:
       .row.justify-content-center.align-items-center.mb-4
-          .col-lg-10.movil(data-aos="zoom-in")
+          .col-lg-8.col-sm-8.movil(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema2/img7_1.svg', alt='Texto que describa la imagen')
           .col-lg-10.desktop(data-aos="zoom-in")
@@ -176,7 +176,7 @@
                 p Ejemplos: género, país de origen y carrera universitaria.
               .tarjeta.color-primario.tarjeta--BG02.p-3(x="85%" y="39%" numero="+")
                 p Ejemplos: nivel de satisfacción y nivel educativo.
-      p.mb-4(data-aos="flip-up") En la tabla 7, se presentan ejemplos de registros de personas con variables categóricas nominales y ordinales.
+      p.mb-5(data-aos="flip-up") En la tabla 7, se presentan ejemplos de registros de personas con variables categóricas nominales y ordinales.
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 7.
@@ -230,9 +230,10 @@
                   td Ingeniería	
                   td Medio	
                   td Universitario
-      .row.justify-content-center.align-items-center.mb-3
-        .col-lg-12(data-aos="flip-up")
-          p Las variables categóricas suelen organizarse en tablas de frecuencia, que permiten visualizar la cantidad de veces que aparece cada categoría dentro de un conjunto de datos. Por ejemplo, en una encuesta realizada a 20 personas sobre su nivel de satisfacción con un curso, se obtuvieron los siguientes resultados: 4 personas indicaron un nivel de satisfacción bajo, 9 personas lo calificaron como medio y 7 personas como alto. La tabla 8 muestra la distribución de frecuencias correspondiente, facilitando el análisis de estos datos:
+      .BG_02.p-5
+        .row.justify-content-center.align-items-center
+          .col-lg-12(data-aos="flip-up")
+            p Las variables categóricas suelen organizarse en tablas de frecuencia, que permiten visualizar la cantidad de veces que aparece cada categoría dentro de un conjunto de datos. Por ejemplo, en una encuesta realizada a 20 personas sobre su nivel de satisfacción con un curso, se obtuvieron los siguientes resultados: 4 personas indicaron un nivel de satisfacción bajo, 9 personas lo calificaron como medio y 7 personas como alto. La tabla 8 muestra la distribución de frecuencias correspondiente, facilitando el análisis de estos datos:
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 8.
@@ -240,7 +241,7 @@
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
             table(alt="")
               thead
                 tr
@@ -270,13 +271,13 @@
                   td 100 %	
                   td —
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-4.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
+          .col-lg-4.col-md-10.col-sm-8.mb-4(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema2/img8.png', alt='Texto que describa la imagen')
-          .col-lg-8.col-md-6.col-sm-8.mb-4(data-aos="fade-left")
+          .col-lg-8.col-md-10.col-sm-10.mb-4(data-aos="fade-left")
             p Las variables categóricas se pueden visualizar mediante:
             .row.justify-content-center
-              .col-lg-6.mb-4.col-md-6.col-sm-8.mb-4(data-aos="fade-left")
+              .col-lg-6.mb-4(data-aos="fade-left")
                 .tarjeta-avatar.h-100
                   img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
                   .tarjeta.color-secundario.tarjeta.color5.w-100
@@ -325,13 +326,13 @@
                   td Total	
                   td 30	
                   td 100 %
-      p.mb-4(data-aos="flip-up") Estos datos pueden representarse con un gráfico de barras o un gráfico circular para una mayor claridad en su interpretación para la frecuencia absoluta:
+      p.mb-5(data-aos="flip-up") Estos datos pueden representarse con un gráfico de barras o un gráfico circular para una mayor claridad en su interpretación para la frecuencia absoluta:
       
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Figura 1.
         span  #[i Gráfico de barras ]
   
-      .row.justify-content-center.align-items-center.mb-4
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.movil(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema2/img11_1.svg', alt='En la Figura 1 se presenta un gráfico de barras con la distribución de frecuencias de los lenguajes de programación preferidos por los encuestados. En este gráfico, cada barra representa un lenguaje de programación y su altura indica la cantidad de personas que lo eligieron. Se encuentra que Python es el lenguaje con mayor preferencia, seguido por Java, C++ y JavaScript, lo que permite representar de manera clara la proporción de cada categoría dentro del conjunto de datos.')
@@ -343,7 +344,7 @@
         h5 Figura 2.
         span  #[i Gráfico de barras ]
   
-      .row.justify-content-center.align-items-center.mb-4
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.movil(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema2/img12_1.svg', alt='En la Figura 2 se presenta un gráfico circular que representa la distribución porcentual de los lenguajes de programación preferidos por los encuestados. Cada sector del círculo indica la proporción de respuestas para cada lenguaje, permitiendo comparar visualmente su popularidad relativa. Se observa que Python ocupa la mayor porción del gráfico, seguido por Java, C++ y JavaScript, lo que facilita la comprensión de la distribución de preferencias de manera clara e intuitiva.')
@@ -355,7 +356,7 @@
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.3	Variables numéricas
       p.mb-4(data-aos="flip-up") En estadística descriptiva, una variable numérica o cuantitativa es aquella cuyos valores son números que representan cantidades o medidas. Estos valores tienen un significado intrínseco y permiten realizar operaciones aritméticas, como sumas, restas o cálculos de promedios. Las variables numéricas son fundamentales para el análisis estadístico, ya que permiten medir y comparar características dentro de un conjunto de datos.
-      p.mb-4(data-aos="flip-up") Estas variables se clasifican en dos tipos principales:
+      p.mb-5(data-aos="flip-up") Estas variables se clasifican en dos tipos principales:
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-primario.p-5
           .row.justify-content-center.mb-4
@@ -374,7 +375,7 @@
           p Pueden asumir cualquier valor dentro de un rango o intervalo determinado, incluidos valores decimales. Son comunes en mediciones como la estatura, la temperatura o el tiempo empleado en una tarea.
   
       p.mb-4(data-aos="flip-up") Para analizar las variables numéricas, se utilizan herramientas como medidas de tendencia central (media, mediana y moda) y medidas de dispersión (rango, desviación estándar y varianza). Además, pueden representarse mediante histogramas, diagramas de caja o polígonos de frecuencia para facilitar su interpretación.
-      p(data-aos="flip-up") En la siguiente tabla, se presentan 10 registros con datos que explican el concepto de variables numéricas en estadística descriptiva, diferenciando entre discretas y continuas:
+      p.mb-5(data-aos="flip-up") En la siguiente tabla, se presentan 10 registros con datos que explican el concepto de variables numéricas en estadística descriptiva, diferenciando entre discretas y continuas:
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 10.
@@ -452,7 +453,7 @@
                   td 166.7	
                   td 6	
                   td 4.3
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-lg-2.col-md-6.col-sm-4.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img15.svg', alt='Texto que describa la imagen')
@@ -470,7 +471,7 @@
       #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.4	Medidas de tendencia central y dispersión
       
-      p.mb-4(data-aos="flip-up") En estadística descriptiva, las medidas de tendencia central (MTC) son valores representativos de un conjunto de datos. También se les conoce como promedios, ya que proporcionan un valor típico que resume la distribución de los datos (Mesa Guerrero, 2020). Las principales MTC son:
+      p.mb-5(data-aos="flip-up") En estadística descriptiva, las medidas de tendencia central (MTC) son valores representativos de un conjunto de datos. También se les conoce como promedios, ya que proporcionan un valor típico que resume la distribución de los datos (Mesa Guerrero, 2020). Las principales MTC son:
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-md-6.col-sm-8.mb-4
           figure
@@ -594,9 +595,9 @@
                 span 4
               | Sin moda: todos los valores aparecen con la misma frecuencia. Ejemplo: en {10, 11, 12, 13, 14, 15}, no hay moda.
       
-      .row.justify-content-center.align-items-center.mb-3
-        .col-lg-8(data-aos="flip-up")
-          .cajon.color-secundario.p-4.mb-4
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10(data-aos="flip-up")
+          .cajon.color-secundario.p-4
             .row.justify-content-center.align-items-center
               .col-lg-2.col-md-6.col-sm-4.mb-4
                 figure
@@ -619,7 +620,7 @@
       separador
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.5	Visualización de datos y análisis exploratorio
-      p.mb-4(data-aos="flip-up") La visualización de datos y el análisis exploratorio (AED) son pasos fundamentales en la estadística descriptiva, ya que permiten examinar la distribución, el comportamiento y la estructura de los datos antes de aplicar técnicas más complejas. Su objetivo es ofrecer una representación clara y comprensible de la información recolectada, facilitando la identificación de patrones, tendencias, valores atípicos y posibles errores.
+      p.mb-5(data-aos="flip-up") La visualización de datos y el análisis exploratorio (AED) son pasos fundamentales en la estadística descriptiva, ya que permiten examinar la distribución, el comportamiento y la estructura de los datos antes de aplicar técnicas más complejas. Su objetivo es ofrecer una representación clara y comprensible de la información recolectada, facilitando la identificación de patrones, tendencias, valores atípicos y posibles errores.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-md-6.col-sm-8.mb-4
           figure
@@ -630,8 +631,8 @@
           p Actualmente, existen múltiples herramientas tecnológicas que facilitan estos procesos. Programas como Excel, SPSS, R o Python (utilizando bibliotecas como Matplotlib, Seaborn o Pandas), así como plataformas como Power BI y Tableau, permiten generar visualizaciones dinámicas y realizar análisis exploratorio de manera efectiva.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10(data-aos="flip-up")
-          .cajon.color-primario.p-4.mb-4
-            p En conjunto, la visualización de datos y el AED no solo proporcionan una comprensión inicial de los datos, sino que también orientan la selección de métodos estadísticos adecuados en etapas posteriores del análisis.
+          .cajon.color-primario.p-4
+            p.mb-0 En conjunto, la visualización de datos y el AED no solo proporcionan una comprensión inicial de los datos, sino que también orientan la selección de métodos estadísticos adecuados en etapas posteriores del análisis.
   </template>
 
 <script>

@@ -38,15 +38,16 @@
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+    color: black !important  
 
 figcaption
   font-weight: normal
 
 .barra-avance__boton--regresar span
     color: #ffffff !important
-
-// pasosb
+.banner-interno__fondo
+  background-image: url("../assets/curso/temas/imgbanner.svg") !important
+// pasosb 
 .pasos-b__header__item--before .pasos-b__header__item__dot 
   border-color: #FECAB2
   background-color: #FECAB2
@@ -115,6 +116,8 @@ figcaption
 .cajon.color-primario
   background-color: #D4FEFA
 
+.tarjeta.tarjeta--gris
+  background-color: #CFDBDE
 .tarjeta.tarjeta--azul
   background-color: #D4FEFA
 
@@ -129,6 +132,24 @@ figcaption
 
 .tarjeta--BG02
   background-color: #EAE7FC !important
+
+.BG_01
+  background-image: url("../assets/curso/temas/tema1/bg01_1.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG_02
+  background-image: url("../assets/curso/temas/tema1/bg02_1.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 .BG03
   background-image: url("../assets/curso/temas/tema3/imgbg3.svg")
@@ -163,3 +184,19 @@ figcaption
   width: 45px
   height: 45px
   margin-right: 10px
+
+table thead
+  background-color: #CBC4F8
+
+.slyder-f__btn i
+   color: #870524
+  
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+.lista-ol--cuadro__vineta
+    color: #000000
+.fa-angle-down, .fa-angle-up
+  color: $white
+
+.acordion__activo
+  background-color: rgb(231, 253, 235) !important

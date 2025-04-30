@@ -13,10 +13,10 @@
             img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
         .col-lg-7(data-aos="flip-up")
           p En el ámbito de la Inteligencia Artificial (IA), el análisis de datos es un proceso fundamental, ya que la calidad y relevancia de la información analizada inciden directamente en el rendimiento y la precisión de los modelos desarrollados. Un Análisis Exploratorio de Datos (AED) eficaz permite identificar patrones y tendencias clave para el entrenamiento de algoritmos de aprendizaje automático y la mejora en la toma de decisiones basada en datos. Para ello, se emplean técnicas estadísticas que facilitan la comprensión de las relaciones entre las variables analizadas.
-          .cajon.color-secundario.p-4.mb-4
-            p Según García (2017), la esencia del AED radica en permitir que los datos “hablen” y, a partir de ellos, identificar los patrones y modelos correspondientes. Por esta razón, el AED se considera una herramienta de gran utilidad en la generación de modelos que representan fenómenos específicos.
+          .cajon.color-primario.p-4
+            p.mb-0 Según García (2017), la esencia del AED radica en permitir que los datos “hablen” y, a partir de ellos, identificar los patrones y modelos correspondientes. Por esta razón, el AED se considera una herramienta de gran utilidad en la generación de modelos que representan fenómenos específicos.
       p(data-aos="flip-up") El volumen de datos generado en los distintos sistemas de información supera la capacidad humana para analizarlos sin el uso de técnicas automatizadas. Los datos recopilados en los medios transaccionales de las organizaciones han experimentado un crecimiento constante, reflejando una tendencia al alza.
-      p(data-aos="flip-up") Existen diversas definiciones sobre el análisis de datos. Una de las más reconocidas es la propuesta por Hair y otros (2010), quienes lo definen como el proceso de convertir datos en bruto en información útil para la toma de decisiones. Este proceso no solo implica la aplicación de razonamiento estadístico y herramientas informáticas, sino también la capacidad de interpretar los resultados en el contexto del problema de investigación.
+      p.mb-5(data-aos="flip-up") Existen diversas definiciones sobre el análisis de datos. Una de las más reconocidas es la propuesta por Hair y otros (2010), quienes lo definen como el proceso de convertir datos en bruto en información útil para la toma de decisiones. Este proceso no solo implica la aplicación de razonamiento estadístico y herramientas informáticas, sino también la capacidad de interpretar los resultados en el contexto del problema de investigación.
   
       .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-right")
         .bloque-texto-g__img(
@@ -24,23 +24,23 @@
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 El análisis de datos es un componente esencial en la era del big data, ya que abarca la examinación, limpieza, transformación y modelado de datos con el objetivo de descubrir información valiosa, extraer conclusiones y respaldar la toma de decisiones. Este proceso incluye una variedad de técnicas y herramientas, que van desde métodos tradicionales de minería de datos y aprendizaje automático hasta enfoques avanzados como el aprendizaje profundo (Wang, 2017).
-      p.mb-4(data-aos="flip-up") Un aspecto clave en el análisis de datos es la identificación de sus fuentes, las cuales pueden clasificarse en:
+      p.mb-5(data-aos="flip-up") Un aspecto clave en el análisis de datos es la identificación de sus fuentes, las cuales pueden clasificarse en:
   
-      .row.mb-4
-        .col-lg-6(data-aos="flip-up")
-          .tarjeta-avatar-b.mb-5
+      .row
+        .col-lg-6.mb-5(data-aos="flip-up")
+          .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema1/img3.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.tarjeta--azul.h-100
               .p-4
                 h4 Internas
                 p Generadas dentro de la organización, como registros de transacciones, bases de datos de clientes y datos operativos.
   
         .col-lg-6(data-aos="flip-up")
-          .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.tarjeta--azul.h-100
               .p-4
                 h4 Externas
                 p Provenientes de fuentes externas a la organización, como información de mercado, datos demográficos, estadísticas gubernamentales y registros meteorológicos.
@@ -53,15 +53,15 @@
         .col-lg-12
           p(data-aos="flip-up") Los sistemas de información actuales manejan diversos tipos de datos, los cuales pueden provenir de múltiples fuentes, incluyendo dispositivos IoT, sistemas operativos, aplicaciones y procesos de curación manual (Gehani y Tariq, 2012).
           p(data-aos="flip-up") Los datos estructurados se encuentran organizados en formatos predefinidos, como tablas en bases de datos relacionales, donde cada campo tiene un tipo de dato específico (Pyle, 1999). Su organización sistemática permite realizar consultas eficientes, aplicar filtros y establecer relaciones entre diferentes conjuntos de datos. Se almacenan en bases de datos relacionales, hojas de cálculo y archivos con formato fijo, lo que facilita su procesamiento y análisis en diversos sectores, como el comercio electrónico, la banca y la gestión empresarial.
-      
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/temas/tema1/img5.png', alt='Imagen decorativa')
-        .col-lg-5(data-aos="flip-up")
-          p Por ejemplo, en un sistema de administración de inventarios, los datos estructurados incluyen información como el código del producto, nombre, precio, cantidad disponible y ubicación en el almacén. Esta estructura facilita la gestión del inventario, el análisis de tendencias de venta y la toma de decisiones estratégicas. Además, los datos estructurados son fundamentales para la implementación de sistemas de inteligencia empresarial y análisis predictivo, ya que proporcionan una base sólida para extraer información clave.
-          p En este contexto, los datos estructurados pueden contener tanto variables cualitativas como cuantitativas. Por ejemplo, una columna puede indicar la categoría de un producto (cualitativo) y otra su precio (cuantitativo). Esta organización facilita la aplicación de análisis estadísticos, como distribuciones de frecuencia y medidas de tendencia central.
-      p.mb-4(data-aos="flip-up") La tabla 1 presenta un ejemplo de datos estructurados en una tienda en línea, donde se organizan en filas y columnas con tipos de datos definidos.
+      .BG_01.p-5
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img5.png', alt='Imagen decorativa')
+          .col-lg-5(data-aos="flip-up")
+            p Por ejemplo, en un sistema de administración de inventarios, los datos estructurados incluyen información como el código del producto, nombre, precio, cantidad disponible y ubicación en el almacén. Esta estructura facilita la gestión del inventario, el análisis de tendencias de venta y la toma de decisiones estratégicas. Además, los datos estructurados son fundamentales para la implementación de sistemas de inteligencia empresarial y análisis predictivo, ya que proporcionan una base sólida para extraer información clave.
+            p En este contexto, los datos estructurados pueden contener tanto variables cualitativas como cuantitativas. Por ejemplo, una columna puede indicar la categoría de un producto (cualitativo) y otra su precio (cuantitativo). Esta organización facilita la aplicación de análisis estadísticos, como distribuciones de frecuencia y medidas de tendencia central.
+      p.mb-5(data-aos="flip-up") La tabla 1 presenta un ejemplo de datos estructurados en una tienda en línea, donde se organizan en filas y columnas con tipos de datos definidos.
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 1.
@@ -121,7 +121,7 @@
                   td 14/09/2022	
                   td Barcelona	
                   td 480000
-      p.mb-4(data-aos="flip-up") De manera similar, la tabla 2 describe un conjunto de datos estructurados en un contexto de atención médica, organizado en filas y columnas predefinidas.
+      p.mb-5(data-aos="flip-up") De manera similar, la tabla 2 describe un conjunto de datos estructurados en un contexto de atención médica, organizado en filas y columnas predefinidas.
   
       .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
         h5 Tabla 2.
@@ -190,25 +190,25 @@
       separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.2	Datos no estructurados
-      p.mb-4(data-aos="flip-up") Los datos no estructurados son aquellos que no siguen un modelo predefinido ni una organización tabular fija, a diferencia de los datos estructurados. No pueden almacenarse ni procesarse fácilmente en bases de datos relacionales sin una transformación previa. Se estima que representan aproximadamente el 80 % de los datos generados a nivel global (Gartner, citado en Katal et al., 2013). Ejemplos comunes incluyen correos electrónicos, documentos de texto, imágenes, videos y publicaciones en redes sociales.
+      p.mb-5(data-aos="flip-up") Los datos no estructurados son aquellos que no siguen un modelo predefinido ni una organización tabular fija, a diferencia de los datos estructurados. No pueden almacenarse ni procesarse fácilmente en bases de datos relacionales sin una transformación previa. Se estima que representan aproximadamente el 80 % de los datos generados a nivel global (Gartner, citado en Katal et al., 2013). Ejemplos comunes incluyen correos electrónicos, documentos de texto, imágenes, videos y publicaciones en redes sociales.
       
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-3.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
+        .col-lg-3.col-6.col-md-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
         .col-lg-7(data-aos="flip-up")
           .cajon.color-secundario.p-4.mb-4
-            p En su estado original, estos datos no se ajustan directamente a las categorías de cualitativos o cuantitativos según los criterios del análisis estadístico tradicional. No obstante, para que los modelos de aprendizaje automático, como los Modelos de Lenguaje Grandes (LLMs), puedan utilizarlos, es necesario transformarlos en representaciones estructuradas o numéricas. Por ejemplo, los textos se tokenizan y convierten en embeddings numéricos, mientras que las imágenes se representan mediante matrices de valores de píxeles.
+            p.mb-0 En su estado original, estos datos no se ajustan directamente a las categorías de cualitativos o cuantitativos según los criterios del análisis estadístico tradicional. No obstante, para que los modelos de aprendizaje automático, como los Modelos de Lenguaje Grandes (LLMs), puedan utilizarlos, es necesario transformarlos en representaciones estructuradas o numéricas. Por ejemplo, los textos se tokenizan y convierten en embeddings numéricos, mientras que las imágenes se representan mediante matrices de valores de píxeles.
           p La transformación de datos no estructurados permite su análisis y uso en diversas aplicaciones. En el caso de las imágenes, por ejemplo, cada píxel se representa con un valor numérico que refleja su intensidad o color. Una vez procesados, estos datos pueden analizarse como variables cuantitativas continuas o, tras una categorización, como variables cualitativas discretas. Gracias a esta conversión, los modelos de inteligencia artificial pueden identificar patrones y extraer información valiosa para tareas como la clasificación de imágenes, el análisis de sentimientos en texto y la generación de lenguaje natural.
-      p.mb-4(data-aos="flip-up") En la tabla 3 se presentan ejemplos de datos no estructurados y sus formatos más comunes:
+      p.mb-5(data-aos="flip-up") En la tabla 3 se presentan ejemplos de datos no estructurados y sus formatos más comunes:
       
-      .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 3.
         span  #[i Formatos de datos no estructurados]
   
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+        .col-lg-10
+          .tabla-b.color-acento-contenido.mb-4(data-aos="fade-left")
             table(alt="")
               thead
                 tr
@@ -240,29 +240,29 @@
         h2 1.3	Datos semiestructurados
       
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-7(data-aos="flip-up")
+        .col-lg-7.order-lg-1.order-2(data-aos="flip-up")
           p Los datos semiestructurados representan una forma híbrida de información que combina elementos de datos estructurados y no estructurados. A diferencia de los datos estructurados, que se organizan de manera rígida en bases de datos relacionales, los datos semiestructurados no siguen un esquema fijo, aunque conservan ciertos elementos organizativos. Esta flexibilidad permite representar jerarquías y relaciones complejas dentro de los datos, facilitando su adaptación a diferentes necesidades y contextos.
           .cajon.color-primario.p-4.mb-4
-            p Ejemplos comunes de datos semiestructurados son los archivos XML y JSON, que utilizan etiquetas o pares clave-valor para organizar la información. También se incluyen correos electrónicos con metadatos, logs de servidores y archivos YAML, los cuales contienen estructura, pero sin ajustarse a una forma tabular estricta.
-        .col-lg-5.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
+            p.mb-0 Ejemplos comunes de datos semiestructurados son los archivos XML y JSON, que utilizan etiquetas o pares clave-valor para organizar la información. También se incluyen correos electrónicos con metadatos, logs de servidores y archivos YAML, los cuales contienen estructura, pero sin ajustarse a una forma tabular estricta.
+        .col-lg-5.col-6.col-md-6.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
+        .col-lg-4.col-6.col-md-6.col-8.mb-lg-0.mb-5(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
         .col-lg-7(data-aos="flip-up")
           p Los datos semiestructurados son especialmente útiles en escenarios donde las estructuras de datos pueden evolucionar con el tiempo o cuando se trabaja con fuentes de información heterogéneas. Se emplean ampliamente en tecnologías web, integración de datos en plataformas diversas y sistemas de gestión documental. Además, son esenciales en entornos donde la interoperabilidad y el intercambio de información entre distintos sistemas requieren flexibilidad sin perder organización.
           p Su uso ha crecido con el auge del big data y la computación en la nube, ya que facilitan la recopilación y análisis de grandes volúmenes de información procedente de diversas fuentes. En la tabla 4 se presentan algunos tipos de archivos comúnmente clasificados como semiestructurados.
       
-      .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 4.
         span  #[i Ejemplo de tipos de datos semiestructurados]
   
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+        .col-lg-10
+          .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
             table(alt="")
               thead
                 tr
@@ -274,7 +274,7 @@
                   td {"nombre": "Ana", "edad": 30, "activo": true}
                 tr
                   td XML (eXtensible Markup Language)	
-                  td <cliente><nombre>Ana</nombre><edad>30</edad></cliente>
+                  td &lt;cliente&gt;&lt;nombre&gt;Ana&lt;/nombre&gt;&lt;edad&gt;30&lt;/edad&gt;&lt;/cliente&gt;
                 tr
                   td Archivos YAML	
                   td nombre: Ana\nedad: 30\nactivo: true
@@ -284,14 +284,14 @@
                 tr
                   td Logs de servidor	
                   td Estructurados por línea pero no en formato tabular.
-      p(data-aos="flip-up") A continuación, en la tabla 5 se presenta una comparación entre los diferentes tipos de datos analizados hasta ahora.
+          p.mb-5(data-aos="flip-up") A continuación, en la tabla 5 se presenta una comparación entre los diferentes tipos de datos analizados hasta ahora.
   
-      .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Tabla 5.
         span  #[i Comparativa de datos]
   
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
+        .col-lg-10
           .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
             table(alt="")
               thead
@@ -326,9 +326,10 @@
                   td Alta	
                   td Moderada	
                   td Baja (requiere IA, NLP)
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          p(data-aos="flip-up") Los datos no estructurados representan un reto y una oportunidad en el análisis de información. Su flexibilidad permite capturar detalles ricos y contextuales, pero también requiere herramientas avanzadas para su procesamiento. Tecnologías como el procesamiento de lenguaje natural, la visión por computadora y la inteligencia artificial han facilitado la extracción de valor a partir de estos datos. En sectores como la salud, el comercio y la ciberseguridad, su análisis ha permitido mejorar la toma de decisiones, automatizar procesos y descubrir patrones que serían difíciles de detectar con métodos tradicionales.
+      .BG_02.p-5
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            p(data-aos="flip-up") Los datos no estructurados representan un reto y una oportunidad en el análisis de información. Su flexibilidad permite capturar detalles ricos y contextuales, pero también requiere herramientas avanzadas para su procesamiento. Tecnologías como el procesamiento de lenguaje natural, la visión por computadora y la inteligencia artificial han facilitado la extracción de valor a partir de estos datos. En sectores como la salud, el comercio y la ciberseguridad, su análisis ha permitido mejorar la toma de decisiones, automatizar procesos y descubrir patrones que serían difíciles de detectar con métodos tradicionales.
       separador
       #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.4	Calidad de los datos
@@ -411,8 +412,8 @@
           p.text-center Determina si los datos pueden ser obtenidos y utilizados sin restricciones, asegurando su disponibilidad y seguridad.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10(data-aos="flip-up")
-          .cajon.color-secundario.p-4.mb-4
-            p En síntesis, la calidad de los datos es un concepto multidimensional que garantiza que la información sea precisa, válida, completa, coherente y adecuada para el propósito al que está destinada. Evaluar la calidad de los datos es un paso esencial en la preparación de datos para cualquier análisis estadístico o aplicación de inteligencia artificial (Pyle, 1999).
+          .cajon.color-secundario.p-4
+            p.mb-0 En síntesis, la calidad de los datos es un concepto multidimensional que garantiza que la información sea precisa, válida, completa, coherente y adecuada para el propósito al que está destinada. Evaluar la calidad de los datos es un paso esencial en la preparación de datos para cualquier análisis estadístico o aplicación de inteligencia artificial (Pyle, 1999).
     </template>
 
 <script>

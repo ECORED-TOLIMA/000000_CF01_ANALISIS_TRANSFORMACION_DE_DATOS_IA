@@ -14,21 +14,21 @@
           p La visualización de datos y el análisis exploratorio (AED) son pasos fundamentales en la estadística descriptiva, ya que permiten examinar la distribución, el comportamiento y la estructura de los datos antes de aplicar técnicas más complejas. Su objetivo es ofrecer una representación clara y comprensible de la información recolectada, facilitando la identificación de patrones, tendencias, valores atípicos y posibles errores.
           p Dependiendo del tipo de variable, se seleccionan diferentes tipos de gráficos. Para variables categóricas, los gráficos de barras y los diagramas de sectores permiten comparar frecuencias de manera visual. En cambio, para variables numéricas, se utilizan histogramas, diagramas de caja (boxplot) y gráficos de dispersión, que facilitan el análisis de distribución, variabilidad y relaciones entre variables.
       
-      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in")
+      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img2.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 El crecimiento exponencial de los datos digitales, así como la transformación digital de las organizaciones, ha llevado a que los datos se posicionen como uno de los recursos más valiosos. Ante esta realidad, se vuelve imprescindible implementar una estrategia de gobernanza que permita su gestión eficaz, integrando procesos de control, supervisión, protección y aprovechamiento. Según la CEPAL (2023), la gobernanza de datos es la clave para organizar, custodiar y maximizar el valor de la información dentro de las instituciones.
-      p.mb-4(data-aos="flip-up") Adicionalmente, la seguridad de los datos es un componente inseparable de la gobernanza. Esta implica establecer mecanismos técnicos y normativos para prevenir accesos no autorizados, proteger la confidencialidad, mantener la integridad y garantizar la disponibilidad de la información. El cumplimiento de marcos legales como la Ley de Protección de Datos Personales y las normativas internacionales refuerza esta dimensión, promoviendo un entorno seguro para el intercambio y procesamiento de datos.
+      p.mb-5(data-aos="flip-up") Adicionalmente, la seguridad de los datos es un componente inseparable de la gobernanza. Esta implica establecer mecanismos técnicos y normativos para prevenir accesos no autorizados, proteger la confidencialidad, mantener la integridad y garantizar la disponibilidad de la información. El cumplimiento de marcos legales como la Ley de Protección de Datos Personales y las normativas internacionales refuerza esta dimensión, promoviendo un entorno seguro para el intercambio y procesamiento de datos.
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10(data-aos="flip-up")
           .cajon.color-secundario.p-4
-            p En resumen, una estrategia efectiva de gobernanza y seguridad de los datos permite no solo cumplir con las exigencias normativas, sino también potenciar el valor de los datos como base para la innovación, la eficiencia operativa y la transparencia institucional.
+            p.mb-0 En resumen, una estrategia efectiva de gobernanza y seguridad de los datos permite no solo cumplir con las exigencias normativas, sino también potenciar el valor de los datos como base para la innovación, la eficiencia operativa y la transparencia institucional.
       separador
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.1 Políticas y normativas 
-      p.mb-4(data-aos="flip-up") En materia de seguridad de datos y protección de la información, diversas normativas nacionales e internacionales imponen obligaciones a las organizaciones. Estas regulaciones establecen directrices sobre el tratamiento de datos personales, garantizando derechos fundamentales y promoviendo medidas de seguridad para proteger la confidencialidad, integridad y disponibilidad de la información. A continuación, se presentan algunas normativas destacadas:
+      p.mb-5(data-aos="flip-up") En materia de seguridad de datos y protección de la información, diversas normativas nacionales e internacionales imponen obligaciones a las organizaciones. Estas regulaciones establecen directrices sobre el tratamiento de datos personales, garantizando derechos fundamentales y promoviendo medidas de seguridad para proteger la confidencialidad, integridad y disponibilidad de la información. A continuación, se presentan algunas normativas destacadas:
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10(data-aos="zoom-in")
           LineaTiempoD.color-acento-botones
@@ -119,7 +119,7 @@
       separador
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.2 Gobernanza de datos
-      p.mb-4(data-aos="flip-up") La gobernanza de datos consiste en el conjunto de normativas, procedimientos, estándares y roles diseñados para asegurar que los datos dentro de una organización sean confiables, seguros, accesibles, consistentes y se manejen de forma ética. Ha ganado relevancia a medida que las organizaciones reconocen el valor crucial de los datos como un activo fundamental para la toma de decisiones. Los componentes clave de la gobernanza de datos incluyen:
+      p.mb-5(data-aos="flip-up") La gobernanza de datos consiste en el conjunto de normativas, procedimientos, estándares y roles diseñados para asegurar que los datos dentro de una organización sean confiables, seguros, accesibles, consistentes y se manejen de forma ética. Ha ganado relevancia a medida que las organizaciones reconocen el valor crucial de los datos como un activo fundamental para la toma de decisiones. Los componentes clave de la gobernanza de datos incluyen:
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
           figure
@@ -152,11 +152,11 @@
               | Gestionar el ciclo de vida de los datos, desde su creación hasta su eliminación.
   
       p.mb-4(data-aos="flip-up") Una gestión eficaz de los datos permite a las organizaciones maximizar el valor de su información, al tiempo que minimizan los riesgos asociados. Además, proporciona un marco coherente para administrar los datos en toda la empresa, mejorar su calidad y respaldar decisiones basadas en evidencia. En un entorno donde el volumen de datos crece constantemente, contar con una estrategia sólida de gobernanza es esencial para utilizar la información de manera efectiva y responsable.
-      p.mb-4(data-aos="flip-up") Actualmente, existen diversos marcos de referencia que apoyan la implementación de programas de gobernanza de datos. Entre los más influyentes y utilizados por empresas y organizaciones se encuentran:
+      p.mb-5(data-aos="flip-up") Actualmente, existen diversos marcos de referencia que apoyan la implementación de programas de gobernanza de datos. Entre los más influyentes y utilizados por empresas y organizaciones se encuentran:
   
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-8.order-lg-1.order-2(data-aos="flip-up")
-          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="DAMA-DMBOK (Data Management Body of Knowledge)")
               .col-md-12.mb-4.mb-md-0
                 p Desarrollado por DAMA International (Asociación de Gestión de Datos), este marco es reconocido como el estándar más completo para la gestión de datos. La Gobernanza de Datos es una de sus 11 áreas de conocimiento fundamentales, y se encarga de coordinar otras áreas como Calidad de Datos, Arquitectura de Datos, Seguridad de Datos y Metadatos. Incluye principios éticos y estratégicos, define estructuras organizativas con roles y responsabilidades claros, y establece flujos de trabajo para la toma de decisiones, la resolución de problemas y la gestión del cambio. También incorpora métricas que permiten evaluar la efectividad del programa de gobernanza y la calidad de los datos.
@@ -169,7 +169,7 @@
             .row(titulo="ISO 8000 - Calidad de Datos")
               .col-md-12.mb-4.mb-md-0
                 p Este estándar, aunque no constituye un marco de gobernanza completo, es fundamental por su enfoque específico en la calidad de los datos. Define principios, conceptos y procesos para medir y mejorar dicha calidad, siendo una herramienta clave para las organizaciones que desean fortalecer su estrategia de gobernanza a partir de datos confiables y precisos.
-        .col-lg-4.col-md-6.col-sm-8.mb-4.order-lg-2.order-1(data-aos="zoom-in")
+        .col-lg-4.col-md-6.col-sm-8.mb-4.order-lg-2.order-1.d-none.d-lg-block(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema3/img7.png', alt='Texto que describa la imagen')
       p.mb-4(data-aos="flip-up") DAMA-DMBOK y COBIT son los marcos más citados y empleados como referencia, complementados por normas ISO y adaptados a los requisitos regulatorios específicos de cada sector y región. La tendencia actual es adoptar y personalizar estos marcos según las necesidades, capacidades y objetivos de cada organización.
@@ -178,7 +178,7 @@
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.3 Seguridad de los datos
       p.mb-4(data-aos="flip-up") La seguridad de los datos se refiere al conjunto de políticas, prácticas, herramientas y controles diseñados para proteger la información digital contra accesos no autorizados, alteraciones, pérdida o destrucción. Su objetivo principal es garantizar la confidencialidad, integridad y disponibilidad de los datos, independientemente del medio en el que se almacenen o transmitan.
-      p.mb-4(data-aos="flip-up") En un entorno empresarial cada vez más digitalizado e interconectado, la seguridad de los datos se ha convertido en una prioridad estratégica. Las amenazas cibernéticas, los errores humanos y los fallos técnicos representan riesgos constantes que pueden comprometer la información crítica de las organizaciones. Por ello, se requiere una gestión proactiva y sistemática que abarque todos los niveles de la organización.
+      p.mb-5(data-aos="flip-up") En un entorno empresarial cada vez más digitalizado e interconectado, la seguridad de los datos se ha convertido en una prioridad estratégica. Las amenazas cibernéticas, los errores humanos y los fallos técnicos representan riesgos constantes que pueden comprometer la información crítica de las organizaciones. Por ello, se requiere una gestión proactiva y sistemática que abarque todos los niveles de la organización.
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10(data-aos="flip-up")
           .cajon.color-primario.p-4
@@ -201,7 +201,7 @@
   
       .BG03.p-5
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-3.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
+          .col-lg-3.col-md-6.col-sm-8.mb-4.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema3/img9.png', alt='Texto que describa la imagen')
           .col-lg-7(data-aos="flip-up")
