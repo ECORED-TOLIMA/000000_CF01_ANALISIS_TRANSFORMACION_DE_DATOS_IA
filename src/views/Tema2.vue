@@ -351,7 +351,7 @@
         .col-lg-10.desktop(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema2/img12.svg', alt='En la Figura 2 se presenta un gráfico circular que representa la distribución porcentual de los lenguajes de programación preferidos por los encuestados. Cada sector del círculo indica la proporción de respuestas para cada lenguaje, permitiendo comparar visualmente su popularidad relativa. Se observa que Python ocupa la mayor porción del gráfico, seguido por Java, C++ y JavaScript, lo que facilita la comprensión de la distribución de preferencias de manera clara e intuitiva.')
-      p(data-aos="flip-up") Las variables categóricas permiten clasificar datos cualitativos en grupos diferenciados, ya sean nominales (sin jerarquía) u ordinales (con jerarquía). Para analizarlas, se pueden usar tablas de frecuencia y gráficos visuales que faciliten su interpretación
+      p(data-aos="flip-up") Las variables categóricas permiten clasificar datos cualitativos en grupos diferenciados, ya sean nominales (sin jerarquía) u ordinales (con jerarquía). Para analizarlas, se pueden usar tablas de frecuencia y gráficos visuales que faciliten su interpretación.
       separador
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.3	Variables numéricas
@@ -363,7 +363,7 @@
             .col-4
               figure
                 img(src='@/assets/curso/temas/tema2/img13.svg', alt='Texto que describa la imagen')
-          h4 Variables discretas
+          h4.text-center Variables discretas
           p Toman valores aislados, generalmente números enteros, sin posibilidad de valores intermedios entre dos consecutivos. Suelen surgir de procesos de conteo, como el número de materias cursadas o la cantidad de hijos en una familia.
   
         .col-md.tarjeta.color-secundario.p-5
@@ -371,7 +371,7 @@
             .col-4
               figure
                 img(src='@/assets/curso/temas/tema2/img14.svg', alt='Texto que describa la imagen')
-          h4 Variables continuas
+          h4.text-center Variables continuas
           p Pueden asumir cualquier valor dentro de un rango o intervalo determinado, incluidos valores decimales. Son comunes en mediciones como la estatura, la temperatura o el tiempo empleado en una tarea.
   
       p.mb-4(data-aos="flip-up") Para analizar las variables numéricas, se utilizan herramientas como medidas de tendencia central (media, mediana y moda) y medidas de dispersión (rango, desviación estándar y varianza). Además, pueden representarse mediante histogramas, diagramas de caja o polígonos de frecuencia para facilitar su interpretación.
