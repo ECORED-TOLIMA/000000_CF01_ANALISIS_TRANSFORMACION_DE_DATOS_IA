@@ -28,7 +28,7 @@
         .col-12
           figure
             .video
-              iframe(width="1493" height="840" src="https://www.youtube.com/embed/2L91WMqw96A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+              iframe(width="1493" height="840" src="https://www.youtube.com/embed/RN183ALo1ws" title="Fundamentos de datos, estadística descriptiva y seguridad de la información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
   
   </template>
 

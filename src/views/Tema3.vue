@@ -11,9 +11,9 @@
           figure
             img(src='@/assets/curso/temas/tema3/img1.svg', alt='Texto que describa la imagen')
         .col-lg-10(data-aos="flip-up")
-          p La visualización de datos y el análisis exploratorio (AED) son pasos fundamentales en la estadística descriptiva, ya que permiten examinar la distribución, el comportamiento y la estructura de los datos antes de aplicar técnicas más complejas. Su objetivo es ofrecer una representación clara y comprensible de la información recolectada, facilitando la identificación de patrones, tendencias, valores atípicos y posibles errores.
-          p Dependiendo del tipo de variable, se seleccionan diferentes tipos de gráficos. Para variables categóricas, los gráficos de barras y los diagramas de sectores permiten comparar frecuencias de manera visual. En cambio, para variables numéricas, se utilizan histogramas, diagramas de caja (boxplot) y gráficos de dispersión, que facilitan el análisis de distribución, variabilidad y relaciones entre variables.
-      
+          p La gobernanza de los datos comprende el conjunto de políticas, procesos, normas, responsabilidades y estructuras organizacionales destinadas a garantizar que los datos sean confiables, seguros, accesibles, coherentes y utilizados de manera ética. Esta práctica permite gestionar los datos como un activo estratégico, asegurando su calidad, integridad y disponibilidad a lo largo de su ciclo de vida.
+          p En los últimos años, el concepto de gobernanza se ha incorporado de manera sistemática en el lenguaje de las administraciones públicas, las organizaciones privadas y el ámbito académico (Cerrillo-Martínez, 2018). Esta incorporación refleja un reconocimiento creciente del valor de los datos para la formulación de políticas, la innovación institucional y la toma de decisiones basada en evidencia.
+
       .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img2.png')})`}"
