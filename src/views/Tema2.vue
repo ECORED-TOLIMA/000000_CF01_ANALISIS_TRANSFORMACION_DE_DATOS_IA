@@ -342,7 +342,7 @@
   
       .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
         h5 Figura 2.
-        span  #[i Gráfico de barras ]
+        span  #[i Gráfico circular ]
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.movil(data-aos="zoom-in")
@@ -485,38 +485,41 @@
           .cajon.color-primario.p-4.mb-4
             .row.justify-content-center.align-items-center
               .col-lg-6
-                <math>
-                  <mo>x̄</mo>
-                  <mo>=</mo>
-                  <mfrac>
-                    <mrow>
-                      <munderover>
-                        <mo>∑</mo>
-                        <mrow>
-                          <mi>i</mi>
-                          <mo>=</mo>
-                          <mn>1</mn>
-                        </mrow>
-                        <mrow>
-                          <mo>n</mo>
-                        </mrow>
-                      </munderover>
-                      <msub>
-                        <mi>X</mi>
-                        <mn>1</mn>
-                      </msub>
-                    </mrow>
-                    <mrow>
-                      <mo>n</mo>
-                    </mrow>
-                  </mfrac>
-                </math>
+                h1.bgform.p-4
+                  <math>
+                    <mo class='ft'>x̄</mo>
+                    <mo>=</mo>
+                    <mfrac>
+                      <mrow>
+                        <munderover>
+                          <mo class='ft'>∑</mo>
+                          <mrow>
+                            <msub>
+                              <mi class='ft'>i</mi>
+                              <mo>=</mo>
+                              <mn class='ft'>1</mn>
+                            </msub>
+                          </mrow>
+                          <mrow>
+                            <mo class='ft'>n</mo>
+                          </mrow>
+                        </munderover>
+                        <mo class='ft'>X</mo>
+                        <msub>
+                          <mn class='ft'>i</mn>
+                        </msub>
+                      </mrow>
+                      <mrow>
+                        <mo class='ft'>n</mo>
+                      </mrow>
+                    </mfrac>
+                  </math>
               .col-lg-6
                 p Donde:
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    | x : es la media aritmética.
+                    | <mo class='ft'>x̄</mo> : es la media aritmética.
                   li
                     i.fas.fa-angle-right
                     | x_i: representa cada valor del conjunto.
@@ -526,7 +529,35 @@
 
 
           p Por ejemplo, si se tienen las edades de cinco aprendices: 20, 22, 24, 21 y 23, la media se calcula como:
-      
+          
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              .cajon.color-secundario.p-3
+                .row.justify-content-center.align-items-center
+                  .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/tema2/img17.svg', alt='Texto que describa la imagen')
+                  .col-lg-8
+                    h3
+                      <math>
+                        <mo class='ft'>x̄</mo>
+                        <mo>=</mo>
+                        <mfrac>
+                          <mrow>
+                            <mo class='ft'>20 + 22 + 24 +  21 + 23</mo>
+                          </mrow>
+                          <mrow>
+                            <mo class='ft'>5</mo>
+                          </mrow>
+                        </mfrac>
+                      </math>
+                    h3
+                      <math>
+                        <mo class='ft'>x̄</mo>
+                        <mo>=</mo>
+                        <mo class='ft'>22</mo>
+                      </math>
+
       .titulo.mb-4(data-aos="flip-up")
         img(src='@/assets/curso/temas/tema2/imgicono.svg', alt='Imagen decorativa')
         h5.mb-0 B. Mediana
@@ -555,17 +586,17 @@
           .cajon.color-primario.p-4.mb-4
             math
               mrow
-                mo Mediana
+                mo.ft Mediana
                 mo =
                 mfrac
                   mrow
-                    mo 20
+                    mo.ft 20
                     mo +
-                    mo 25
+                    mo.ft 25
                   mrow
-                    mn 2
+                    mn.ft 2
                 mo =
-                mo 22.5
+                mo.ft 22.5
     
         .col-lg-6.col-md-6.col-sm-4.mb-4
           figure
